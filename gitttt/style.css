@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(360 deg, white 0%, blue 100%);
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  align-items: center;
+  max-width: 400px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+  padding: 32px 24px;
+  text-align: center;
+}
+h1 {
+  color: #3a7bd5;
+  margin-bottom: 24px;
+}
+.zoneScore {
+  font-size: 1.2em;
+  margin-bottom: 16px;
+  color: #333;
+}
+.zoneProposition p {
+  font-size: 1.3em;
+  color: #3a7bd5;
+  margin: 18px 0;
+  font-weight: bold;
+}
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #3a7bd5;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  outline: none;
+  transition: border 0.2s;
+}
+input[type="text"]:focus {
+  border: 2px solid #3a7bd5;
+}
+.zoneMessage {
+  min-height: 24px;
+  color: #d9534f;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+.btns {
+  margin-top: 18px;
+}
+button {
+  background: #3a7bd5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 22px;
+  font-size: 1em;
+  margin: 0 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:disabled {
+  background: #b0c4de;
+  cursor: not-allowed;
+}
+button:hover:not(:disabled) {
+  background: #005fa3;
+}
